@@ -1,27 +1,42 @@
-function play1()
+function router(elemID)
 {
-document.getElementById('audio1').play();
+	var prefix = "audio"
+	
+	if(elemID.length == 7)
+		var suffix = elemID.substring(elemID.length-1, elemID.length);
+	else
+		var suffix = elemID.substring(elemID.length-2, elemID.length);
+		
+	var audioID = prefix.concat(suffix);
+	var audioPlaying = document.getElementById(audioID).value;
+	
+	if(document.getElementById(elemID).value == "false")
+		play(audioID);
+	else
+		stop(audioID);
 }
 
-function play2()
-{
-document.getElementById('audio2').play();
+function play(elemID)
+{		
+	document.getElementById(elemID).play();
 }
 
-function play3()
+function stop(elemID)
 {
-document.getElementById('audio3').play();
+	document.getElementById(elemID).pause();
 }
 
-function play4()
+function changeButtonText(buttonID) 
 {
-document.getElementById('audio4').play();
-}
-
-function stopMusic()
-{
-document.getElementById('audio1').pause();
-document.getElementById('audio2').pause();
-document.getElementById('audio3').pause();
-document.getElementById('audio4').pause();
+    var elem = document.getElementById(buttonID);
+    if (elem.textContent=="Play"){
+    	elem.textContent = "Stop";
+    	elem.value = "true";
+    }
+    else{
+     	elem.textContent = "Play";
+     	elem.value = "false";
+     	
+    }
+    
 }

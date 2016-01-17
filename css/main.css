@@ -1,14 +1,21 @@
-#buttonGroup1 {
-    margin-left: 30%;
-    margin-bottom: 1%;
+.soundBoardButtons {
+	margin-left: 24%;
+	margin-top: 3%;
 }
 
-#buttonGroup2 {
-    margin-left: 30%;
-    margin-bottom: 1%;
+.soundBoardButtons div {
+    display: block;
+    float: left;
+    height: 110px;
+    width: 170px;
+    margin-right: 20px;
+    background-image: url(file:///Users/ibrahimitani/Desktop/Websites/Sound%20Board/img/button.png);
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
 }
 
-#buttonGroup3 {
-    margin-left: 30%;
-    margin-bottom: 1%;
+.tab {
+	margin-left: 5px; 
 }
+

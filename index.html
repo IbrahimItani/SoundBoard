@@ -15,47 +15,38 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <div id="buttonGroup1">
-        	<audio loop id="audio1" src="1.wav"></audio>
-        	<button id="button1" value="false" onClick="router(this.id); changeButtonText(this.id);">Play</button>
+        <div class="soundBoardButtons">
 
-        	<audio loop id="audio2" src="2.wav"></audio>
-        	<button id="button2" value="false" onClick="router(this.id); changeButtonText(this.id);">Play</button>
+            <div class="buttonEntity">
+            <audio loop id="audio1" src="1.wav"></audio>
+            <button id="button1" value="false" onClick="router(this.id); changeButtonText(this.id);">Play</button>
+            <br>
+            <input type="file" name="file-input" id="file-input">
+            </div>
 
-        	<audio loop id="audio3" src="3.wav"></audio>
-        	<button id="button3" value="false" onClick="router(this.id); changeButtonText(this.id);">Play</button>
+            <div class="buttonEntity">
+            <audio loop id="audio2" src="2.wav"></audio>
+            <button id="button2" value="false" onClick="router(this.id); changeButtonText(this.id);">Play</button>
+            <br>
+            <input type="file" name="file-input" id="file-input">
+            </div>
 
-        	<audio loop id="audio4" value="false" src="4.wav"></audio>
-        	<button id="button4" value="false" onClick="router(this.id); changeButtonText(this.id);">Play</button>
+            <div class="buttonEntity">
+            <audio loop id="audio3" src="3.wav"></audio>
+            <button id="button3" value="false" onClick="router(this.id); changeButtonText(this.id);">Play</button>
+            <br>
+            <input type="file" name="file-input" id="file-input">
+            </div>
+
+            <div class="buttonEntity">
+            <audio loop id="audio4" src="4.wav"></audio>
+            <button id="button4" value="false" onClick="router(this.id); changeButtonText(this.id);">Play</button>
+            <br>
+            <input type="file" name="file-input" id="file-input">
+            </div>
+
         </div>
 
-        <div id="buttonGroup2">
-        	<audio loop id="audio5" src="1.wav"></audio>
-        	<button id="button5" value="false" onClick="router(this.id); changeButtonText(this.id);">Play</button>
-
-        	<audio loop id="audio6" src="2.wav"></audio>
-        	<button id="button6" value="false" onClick="router(this.id); changeButtonText(this.id);">Play</button>
-
-        	<audio loop id="audio7" src="3.wav"></audio>
-        	<button id="button7" value="false" onClick="router(this.id); changeButtonText(this.id);">Play</button>
-
-        	<audio loop id="audio8" src="4.wav"></audio>
-        	<button id="button8" value="false" onClick="router(this.id); changeButtonText(this.id);">Play</button>
-        </div>
-
-        <div id="buttonGroup3">
-        	<audio loop id="audio9" src="1.wav"></audio>
-        	<button id="button9" value="false" onClick="router(this.id); changeButtonText(this.id);">Play</button>
-
-        	<audio loop id="audio10" src="2.wav"></audio>
-        	<button id="button10" value="false" onClick="router(this.id); changeButtonText(this.id);">Play</button>
-
-        	<audio loop id="audio11" src="3.wav"></audio>
-        	<button id="button11" value="false" onClick="router(this.id); changeButtonText(this.id);">Play</button>
-
-        	<audio loop id="audio12" src="4.wav"></audio>
-        	<button id="button12" value="false" onClick="router(this.id); changeButtonText(this.id);">Play</button>
-        </div>
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>

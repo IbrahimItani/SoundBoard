@@ -19,28 +19,32 @@
 
             <div class="buttonEntity">
             <audio loop id="audio1" src="1.wav"></audio>
-            <button id="button1" value="false" onClick="router(this.id); changeButtonText(this.id);">Play</button>
+            <button id="button1" value="false" onClick="router(this); changeButtonText(this);">Play</button>
+            <input id="volumeslider1" onchange="setVolume(this)" type="range" min="0" max="100" value="100" step="1">
             <br>
             <input type="file" name="file-input" id="file-input">
             </div>
 
             <div class="buttonEntity">
             <audio loop id="audio2" src="2.wav"></audio>
-            <button id="button2" value="false" onClick="router(this.id); changeButtonText(this.id);">Play</button>
+            <button id="button2" value="false" onClick="router(this); changeButtonText(this);">Play</button>
+            <input id="volumeslider2" onchange="setVolume(this)" type="range" min="0" max="100" value="100" step="1">
             <br>
             <input type="file" name="file-input" id="file-input">
             </div>
 
             <div class="buttonEntity">
             <audio loop id="audio3" src="3.wav"></audio>
-            <button id="button3" value="false" onClick="router(this.id); changeButtonText(this.id);">Play</button>
+            <button id="button3" value="false" onClick="router(this); changeButtonText(this);">Play</button>
+            <input id="volumeslider3" onchange="setVolume(this)" type="range" min="0" max="100" value="100" step="1">
             <br>
             <input type="file" name="file-input" id="file-input">
             </div>
 
             <div class="buttonEntity">
             <audio loop id="audio4" src="4.wav"></audio>
-            <button id="button4" value="false" onClick="router(this.id); changeButtonText(this.id);">Play</button>
+            <button id="button4" value="false" onClick="router(this); changeButtonText(this);">Play</button>
+            <input id="volumeslider4" onchange="setVolume(this)" type="range" min="0" max="100" value="100" step="1">
             <br>
             <input type="file" name="file-input" id="file-input">
             </div>

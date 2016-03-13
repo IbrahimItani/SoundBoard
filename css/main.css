@@ -3,7 +3,7 @@
 	margin-top: 3%;
 }
 
-.soundBoardButtons div {
+.soundBoardButtons .buttonEntity {
     display: block;
     float: left;
     height: 110px;
@@ -19,3 +19,104 @@
 	margin-left: 5px; 
 }
 
+#player {
+  width: 160px;
+  height: 50px;
+  position: absolute;
+  margin: 0 auto;
+  top: 80px;
+}
+#player i {
+  position: absolute;
+  margin-top: -6px;
+  color: #666;
+}
+#volume {
+  position: absolute;
+  left: 18px;
+  margin: 0 auto;
+  height: 5px;
+  width: 130px;
+  background: #555;
+  border-radius: 15px;
+}
+#volume.v1 .ui-slider-range-min {
+  height: 5px;
+  width: px;
+  position: absolute;
+  background: #2ecc71;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+#volume.v1 .ui-slider-handle {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background: green;
+  position: absolute;
+  margin-left: -8px;
+  margin-top: -8px;
+  cursor: pointer;
+  outline: none;
+}
+#volume.v2 .ui-slider-range-min {
+  height: 5px;
+  width: px;
+  position: absolute;
+  background: #2ecc71;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+#volume.v2 .ui-slider-handle {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background: green;
+  position: absolute;
+  margin-left: -8px;
+  margin-top: -8px;
+  cursor: pointer;
+  outline: none;
+}
+#volume.v3 .ui-slider-range-min {
+  height: 5px;
+  width: px;
+  position: absolute;
+  background: #2ecc71;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+#volume.v3 .ui-slider-handle {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background: green;
+  position: absolute;
+  margin-left: -8px;
+  margin-top: -8px;
+  cursor: pointer;
+  outline: none;
+}
+#volume.v4 .ui-slider-range-min {
+  height: 5px;
+  width: px;
+  position: absolute;
+  background: #2ecc71;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+#volume.v4 .ui-slider-handle {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background: green;
+  position: absolute;
+  margin-left: -8px;
+  margin-top: -8px;
+  cursor: pointer;
+  outline: none;
+}

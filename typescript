@@ -1,0 +1,10 @@
+Script started on Thu Jan 14 10:47:59 2016
+[?1034hbash-3.2$ jlk'j
+> lkjlk
+> lkjklj
+> bash: unexpected EOF while looking for matching `''
+bash: syntax error: unexpected end of file
+bash-3.2$ exit
+exit
+
+Script done on Thu Jan 14 10:48:16 2016

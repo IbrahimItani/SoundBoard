@@ -15,6 +15,11 @@
     text-decoration: none;
 }
 
+input {
+	position: relative;
+    z-index: 100;
+}
+
 .tab {
 	margin-left: 5px; 
 }

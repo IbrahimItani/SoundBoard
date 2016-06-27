@@ -1,3 +1,1 @@
-Hello Scrubs.
-
-- Andy + Ibe
+Basic web application to create music.
